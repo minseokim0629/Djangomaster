@@ -1,0 +1,55 @@
+//문자와 데이터 타입
+
+print('Hello')//'' ""둘다 가능
+
+print('Hello "world"')//H앞의 '를 만나면 문자열이 시작한다고 인식 따라서 w앞에'가 또 등장하게 되면 문자열이 끝났다고 인식하여 에러가 나는 것 따라서 H앞과 w앞의 따옴표는 서로 다른 종류여야 함 
+
+
+
+print('Hello '+'world')//문자열끼리 더하기 가능
+
+print('Hello '*3)//곱하기도 가능 Hello 가 3번 출력
+
+print('Hello '-'world')//불가능 나누기도 불가능
+
+print("Hello"[0])//인덱스 有 0부터 시작 따라서 H출력
+
+print("Hello"[1])//e
+
+print('Hello'[2])//l
+
+
+
+print('hello world'.capitalize())//capitalize 첫번째 문자 h만 대문자로 바꾸어주기
+
+print('hello world'.upper())//모든 문자를 다 대문자로 바꾸어 출력
+
+print('Hello world'.__len__())//언더바 두개! 문자열 길이 출력
+
+print(len('hello world'))//마찬가지
+
+print('Hello world'.replace('world', 'programming'))//world를 programming으로 바꾸기
+
+
+
+print("egoing's \"tutorial\"")//"앞에 \를 쓰게 되면 "가 특수한 기능이 아니라 일반적인 문자로 인식되어 "tutorial"이렇게 출력되는 것
+
+print("\\")//\출력 
+
+print("\")//에러 "앞에 \쓰면 "가 일반적인 문자로 인식된다고 했으므로 마치 print("Hello)처럼 문자열이 끝나지 않은 것으로 인식되어 에러가 나는 거임.
+
+print("Hello\nworld")
+
+print("Hello\tworld")//tab
+
+print("\a")//소리
+
+print('Hello\nworld')//작은 따옴표와 큰따옴표가 같은 기능을 한다는 것을 알 수 있음(루비는 Hello\nworld로 출력됨)
+
+
+
+print(10+5)//15
+
+print("10"+"5")//105
+
+10은 숫자 "10"은 문자 따라서 결과값이 달라지는 것
